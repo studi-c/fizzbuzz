@@ -3,12 +3,12 @@
 
 A toy project
 
-CMake -G"Visual Studio 15 2017 Win64"
+    CMake -G"Visual Studio 15 2017 Win64"
 
 Produces a satisfactory visual studio project file, that includes my custom include directory and employs the correct startup subproject.
 
-CMAKE -G"NMake Makefiles"
-nmake -f Makefile
+    CMAKE -G"NMake Makefiles"
+    nmake -f Makefile
 
 Builds the project from the command line.
 
