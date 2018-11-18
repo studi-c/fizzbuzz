@@ -8,6 +8,8 @@ CMakeCache.txt
 *.filters
 *.cmake
 *.sln
+Makefile
+*.exe
 
 # Build results
 [Dd]ebug/
