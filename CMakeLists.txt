@@ -6,7 +6,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 find_path(
     MISC_INCLUDE
     NAMES "gsl/gsl"
-    PATHS ../..
+    PATHS ../.. ..
 	PATH_SUFFIXES Include
 	NO_DEFAULT_PATH
 )
